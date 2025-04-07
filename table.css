@@ -1,0 +1,160 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+}
+
+.left-panel,
+.right-panel {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+}
+
+.left-panel {
+    flex: 1;
+    max-width: 350px;
+}
+
+.right-panel {
+    flex: 2;
+}
+
+.left-panel h3,
+.right-panel h3 {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.left-panel label {
+    display: block;
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.left-panel input,
+.left-panel select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #cccccc;
+    border-radius: 8px;
+}
+
+.left-panel button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.left-panel button:hover {
+    background-color: #0056b3;
+}
+
+.code-display,
+.generated-table-container {
+    background-color: #f9f9f9;
+    padding: 15px;
+    border: 1px solid #dedede;
+    border-radius: 8px;
+    margin-top: 15px;
+    max-height: 300px;
+    overflow-y: auto;
+}
+
+pre {
+    overflow-x: auto;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+th,
+td {
+    padding: 10px;
+    border: 1px solid #dedede;
+}
+
+.copy-button {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.copy-button:hover {
+    background-color: #0056b3;
+}
+
+.generated-table-container {
+    margin-top: 20px;
+    padding: 15px;
+    border: 1px solid #dedede;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+}
+
+.generated-table-container h4 {
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.code-display h4 {
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-weight: bold;
+}
+/*end*/
+
+.edit-button {
+background-color:rgb(52, 59, 108); /* Light gray background */
+color: white; /* Dark text color */
+border: 1px solid #ccc; /* Light border */
+padding: 6px 12px;
+cursor: pointer;
+border-radius: 4px; /* Rounded corners */
+font-size: 14px;
+font-weight: 500;
+box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+transition: all 0.3s ease; /* Smooth hover effect */
+}
+
+.edit-button:hover {
+background-color: #e0e0e0; /* Slightly darker gray */
+border-color: #bbb; /* Darker border on hover */
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15); /* More pronounced shadow */
+}
+
+.edit-button:active {
+background-color: #d6d6d6; /* Even darker on click */
+box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2); /* Slightly reduced shadow */
+transform: scale(0.98); /* Slight shrink effect on click */
+}
+ /* Modern Buttons */
+ 
